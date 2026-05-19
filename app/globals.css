@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #302E2E;
+  --color-foreground: #ffffff;
+  
+  --font-heading: "futura-pt", "Futura", "Trebuchet MS", sans-serif;
+  --font-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes marquee-reverse {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-white/5;
+  }
+  body {
+    @apply text-white antialiased;
+    background-color: var(--color-background);
+    font-family: var(--font-primary);
+  }
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 100s linear infinite;
+  }
+  .animate-marquee-reverse {
+    animation: marquee-reverse 100s linear infinite;
+  }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-x-180 {
+    transform: rotateX(180deg);
+  }
+}
