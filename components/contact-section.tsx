@@ -71,7 +71,7 @@ export default function ContactSection() {
           className="space-y-6 mb-20"
         >
           <h2 className="text-6xl sm:text-7xl font-bold tracking-tighter leading-none font-heading text-white">
-            Let&apos;s build something.
+            Let&apos;s create something.
           </h2>
           <p className="text-lg text-white/30 font-light leading-relaxed max-w-xl mx-auto">
             I’m always open to discussing new projects, design systems, or how we can improve user experiences at scale.
