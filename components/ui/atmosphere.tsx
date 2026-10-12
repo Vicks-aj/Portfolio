@@ -3,9 +3,8 @@
 export function Atmosphere() {
   return (
     <div className="fixed inset-0 pointer-events-none z-[-1] overflow-hidden select-none">
-      {/* Primary Fixed Atmospheric Glow - centered at the top with subtle indigo tint */}
-      <div className="absolute top-[-25%] left-1/2 -translate-x-1/2 w-[120rem] h-[60rem] bg-indigo-500/[0.05] rounded-full blur-[140px]" />
-      <div className="absolute top-[35%] right-[-15%] w-[45rem] h-[45rem] bg-indigo-600/[0.03] rounded-full blur-[130px]" />
+      {/* Primary Fixed Atmospheric Glow - clean subtle neutral to preserve rich dark #0D0D0D */}
+      <div className="absolute top-[-25%] left-1/2 -translate-x-1/2 w-[120rem] h-[60rem] bg-white/[0.03] rounded-full blur-[140px]" />
       
       {/* Subtle Static Background Particles - scattered across the whole site */}
       <div className="absolute inset-0 opacity-20">

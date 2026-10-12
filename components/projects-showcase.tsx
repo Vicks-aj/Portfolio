@@ -41,8 +41,8 @@ export default function ProjectsShowcase() {
                   onClick={() => setActiveFilter(option.value)}
                   className={`rounded-full px-8 py-3 font-bold text-[10px] uppercase tracking-[0.2em] transition-all duration-500 ${
                     activeFilter === option.value
-                      ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-[0_0_25px_rgba(99,102,241,0.35)]'
-                      : 'bg-white/5 text-white/40 border border-white/10 hover:border-indigo-500/30 hover:text-white'
+                      ? 'bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-[0_0_25px_rgba(37,99,235,0.35)]'
+                      : 'bg-white/5 text-white/40 border border-white/10 hover:border-blue-500/30 hover:text-white'
                   }`}
                 >
                   {option.label}

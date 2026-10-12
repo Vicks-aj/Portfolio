@@ -82,7 +82,7 @@ export default function ContactSection() {
         <div className="flex flex-col items-center gap-6 mb-10">
           <button
             onClick={() => setIsOpen(true)}
-            className="group inline-flex items-center justify-center gap-4 px-12 py-5 bg-white text-black rounded-full font-bold text-[10px] uppercase tracking-[0.3em] hover:bg-indigo-500 hover:text-white transition-all duration-500 shadow-xl hover:shadow-[0_0_40px_rgba(99,102,241,0.4)] cursor-pointer"
+            className="group inline-flex items-center justify-center gap-4 px-12 py-5 bg-white text-black rounded-full font-bold text-[10px] uppercase tracking-[0.3em] hover:bg-blue-600 hover:text-white transition-all duration-500 shadow-xl hover:shadow-[0_0_35px_rgba(37,99,235,0.35)] cursor-pointer"
           >
             <Mail className="w-4 h-4" />
             Get in touch
@@ -160,7 +160,7 @@ export default function ContactSection() {
               ) : (
                 <div className="space-y-8">
                   <div className="space-y-2">
-                    <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.4em]">
+                    <p className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.4em]">
                       Contact Form
                     </p>
                     <h3 className="text-3xl font-bold tracking-tighter text-white font-heading">
@@ -180,7 +180,7 @@ export default function ContactSection() {
                         required
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full px-5 py-4 rounded-2xl border border-white/10 bg-white/[0.02] text-sm text-white placeholder-white/20 focus:outline-none focus:border-indigo-500/60 focus:bg-white/[0.04] transition-all duration-300"
+                        className="w-full px-5 py-4 rounded-2xl border border-white/10 bg-white/[0.02] text-sm text-white placeholder-white/20 focus:outline-none focus:border-blue-500/60 focus:bg-white/[0.04] transition-all duration-300"
                         placeholder="John Doe"
                       />
                     </div>
@@ -196,7 +196,7 @@ export default function ContactSection() {
                         required
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full px-5 py-4 rounded-2xl border border-white/10 bg-white/[0.02] text-sm text-white placeholder-white/20 focus:outline-none focus:border-indigo-500/60 focus:bg-white/[0.04] transition-all duration-300"
+                        className="w-full px-5 py-4 rounded-2xl border border-white/10 bg-white/[0.02] text-sm text-white placeholder-white/20 focus:outline-none focus:border-blue-500/60 focus:bg-white/[0.04] transition-all duration-300"
                         placeholder="john@example.com"
                       />
                     </div>
@@ -212,7 +212,7 @@ export default function ContactSection() {
                         rows={4}
                         value={formData.message}
                         onChange={handleInputChange}
-                        className="w-full px-5 py-4 rounded-2xl border border-white/10 bg-white/[0.02] text-sm text-white placeholder-white/20 focus:outline-none focus:border-indigo-500/60 focus:bg-white/[0.04] transition-all duration-300 resize-none"
+                        className="w-full px-5 py-4 rounded-2xl border border-white/10 bg-white/[0.02] text-sm text-white placeholder-white/20 focus:outline-none focus:border-blue-500/60 focus:bg-white/[0.04] transition-all duration-300 resize-none"
                         placeholder="Tell me about your project..."
                       />
                     </div>
@@ -226,7 +226,7 @@ export default function ContactSection() {
                     <button
                       type="submit"
                       disabled={status === 'submitting'}
-                      className="w-full group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white disabled:opacity-50 rounded-full font-bold transition-all duration-300 uppercase text-[10px] tracking-[0.3em] shadow-[0_0_25px_rgba(99,102,241,0.3)] cursor-pointer"
+                      className="w-full group inline-flex items-center justify-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-50 rounded-full font-bold transition-all duration-300 uppercase text-[10px] tracking-[0.3em] shadow-[0_0_25px_rgba(37,99,235,0.35)] cursor-pointer"
                     >
                       {status === 'submitting' ? 'Sending...' : 'Send Message'}
                       <Send className="w-3.5 h-3.5" />
