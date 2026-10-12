@@ -87,8 +87,8 @@ export default function Hero() {
             See All Projects
           </Link>
           <a
-            href="/Victor.A- Resume (3).pdf"
-            download
+            href="/Victor_Awojobi_CV.pdf"
+            download="Victor_Awojobi_CV.pdf"
             className="px-12 py-5 bg-white text-black rounded-full font-bold hover:bg-zinc-200 transition-all duration-500 flex items-center gap-3 uppercase text-[10px] tracking-[0.3em] shadow-[0_0_40px_rgba(255,255,255,0.15)]"
           >
             Download CV
