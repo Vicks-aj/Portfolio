@@ -70,7 +70,7 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="text-xl text-white/40 font-light leading-relaxed max-w-3xl mb-12"
         >
-          Every great product starts with one question: <span className="text-white font-medium italic">does this actually help someone?</span> And that question drives everything I design.
+          Every great product starts with one question: <span className="text-indigo-400 font-medium italic">does this actually help someone?</span> And that question drives everything I design.
         </motion.p>
 
         {/* Buttons - Staggered Slide */}
@@ -82,7 +82,7 @@ export default function Hero() {
         >
           <Link
             href="/projects"
-            className="px-12 py-5 bg-white/5 border border-white/5 text-white/70 rounded-full font-bold hover:bg-white hover:text-black hover:border-white transition-all duration-500 uppercase text-[10px] tracking-[0.3em] shadow-2xl"
+            className="px-12 py-5 bg-white/5 border border-white/5 text-white/70 rounded-full font-bold hover:bg-white hover:text-black hover:border-white transition-all duration-500 uppercase text-[10px] tracking-[0.3em] shadow-2xl hover:shadow-[0_0_30px_rgba(99,102,241,0.2)]"
           >
             See All Projects
           </Link>

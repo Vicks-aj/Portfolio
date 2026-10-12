@@ -125,5 +125,26 @@ export const projects: Project[] = [
     categories: ['Creative', 'Web Design', 'Portfolio'],
     figmaUrl: 'https://www.figma.com/design/qidQEUopUdtWiuJxqPOkQJ/Landing-Page?node-id=67-197&t=4zt7iydgd2RjHNcT-1',
     behanceUrl: 'https://www.behance.net/awojobivictor',
+  },
+  {
+    id: 'music-producer',
+    title: 'Music Producer Portfolio',
+    description: 'A creative portfolio showcasing a music producer’s identity, sound, and collaborations through bold visuals.',
+    longDescription: 'A dynamic, high-energy portfolio website designed for a music producer. The experience highlights sound identity, notable artist collaborations, and discography through bold typography, retro pixel aesthetic, and audio-first interactive previews.',
+    type: 'landing-page',
+    status: 'completed',
+    image: '/music-producer.jpg',
+    role: 'UI/UX Designer',
+    challenge: 'Capturing an artist\'s unique musical signature, energy, and industry credibility in a digital space without overwhelming the visitor.',
+    solution: 'Designed an engaging web presence blending retro pixel headings with modern minimalism, interactive audio waveform snippets, and prominent artist endorsements.',
+    tools: ['Figma', 'Web Design', 'Visual Identity', 'Prototyping'],
+    keyFeatures: [
+      'Bold hero section with audio player preview and waveform',
+      'Artist collaboration showcase with social proof',
+      'Audio-first project previews and discography showcase',
+      'Clean interactive navigation and contact funnel'
+    ],
+    categories: ['Music', 'Web Design', 'Portfolio'],
+    figmaUrl: 'https://www.figma.com/design/fCNfvt6sDG8A7te2PFPA0H/Untitled?node-id=167-1208&t=JMJv0xffAQKL5ygJ-0',
   }
 ]
